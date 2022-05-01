@@ -8,8 +8,8 @@ Gрактическая работа по курсу Яндекс.практик
 
 Технологии
 
--Flexbox
--Grid Layout
--Адаптивная верстка
+- Flexbox
+- Grid Layout
+- Адаптивная верстка
 
 * [Ссылка на итоговый сайт](https://kate9611.github.io/russian-travel/)
