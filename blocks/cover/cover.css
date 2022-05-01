@@ -1,21 +1,21 @@
-.places {
-  padding: 92px 148px;
-}
+.cover {
+    padding: 0 48px 92px;
+  }
   
   @media screen and (max-width: 1024px) {
-    .places {
-      padding: 92px 48px;
+    .cover {
+      padding: 0 0 92px;
     }
   }
   
   @media screen and (max-width: 768px) {
-    .places {
-      padding: 88px 24px;
+    .cover {
+      padding: 0 0 88px;
     }
   }
   
   @media screen and (max-width: 320px) {
-    .places {
-      padding: 64px 0 66px;
+    .cover {
+      padding: 0 0 64px;
     }
   }
