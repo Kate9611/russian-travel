@@ -12,4 +12,4 @@ Flexbox
 Grid Layout
 Адаптивная верстка
 
-* [Ссылка на итоговый сайт] https://kate9611.github.io/russian-travel/
+* [Ссылка на итоговый сайт](https://kate9611.github.io/russian-travel/)
