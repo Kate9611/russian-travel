@@ -1,5 +1,5 @@
 .intro__list {
-  margin: 24px 0 0 0;
+  margin: 34px 0 0 0;
   max-width: 383px;
   min-height: 93px;
   font-style: normal;
@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 320px) {
   .intro__list {
-      font-size: 12px;
-      line-height: 19px;
+    font-size: 12px;
+    line-height: 19px;
   }
 }

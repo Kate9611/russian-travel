@@ -31,7 +31,7 @@
     .place__title {
         font-weight: 900;
         display: grid;
-        margin: 48px auto 32px auto;
+        margin: 64px auto 32px auto;
         font-size: 32px;
         line-height: 35px;
         grid-column: 1;
