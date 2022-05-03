@@ -9,7 +9,7 @@
 }
 @media (max-width: 425px) {
   .lead__figure {
-    margin: 0 auto;
+    margin: auto;
     max-width: 425px;
   }
 }
