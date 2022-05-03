@@ -6,11 +6,10 @@
   font-style: normal;
   font-weight: normal;
 }
-
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place__paragraph {
-      width: 100%;
-      font-size: 16px;
-      line-height: 27px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 27px;
   }
 }
