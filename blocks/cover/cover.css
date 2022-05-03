@@ -1,47 +1,61 @@
-<<<<<<< HEAD
-.cover { 
-  padding: 0 48px 92px; 
-} 
-@media screen and (max-width: 1024px) { 
-  .cover { 
-    padding-left: auto; 
-    padding-right: auto;
-  } 
-} 
-@media screen and (max-width: 768px) { 
-  .cover { 
-    padding: 0;
-    padding-bottom: 88px; 
-  } 
-} 
-@media screen and (max-width: 320px) { 
-  .cover { 
-    padding: 0;
-    padding-bottom: 64px; 
-  } 
-} 
-=======
 .cover {
-    padding: 0 48px 92px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  justify-items: center;
+  color: #FFFFFF;
+}
+
+@media screen and (min-width: 1440px) {
+  .cover {
+      width: 1184px;
+      min-height: 594px;
+      margin-top: 66px;
+      margin-left: auto;
+      margin-right: auto;
   }
-  
-  @media screen and (max-width: 1024px) {
-    .cover {
-      padding: 0;
-      padding-bottom: 92px;
-    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  .cover {
+      width: calc(100% - 96px);
+      min-height: 594px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 66px;
   }
-  
-  @media screen and (max-width: 768px) {
-    .cover {
-      padding: 0;
-      padding-bottom: 88px;
-    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover {
+      width: 100%;
+      min-height: 562px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 92px;
   }
-  
-  @media screen and (max-width: 320px) {
-    .cover {
-      padding-bottom: 64px;
-    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cover {
+      width: 100%;
+      min-height: 500px;
+      margin-top: 90px;
   }
->>>>>>> 56c4da5825f653e69e735faea4ca4d1fe6cc7870
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .cover {
+      width: 100%;
+      min-height: 272px;
+      margin-top: 66px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .cover {
+      width: 100%;
+      min-height: 216px;
+      margin-top: 66px;
+  }
+}
