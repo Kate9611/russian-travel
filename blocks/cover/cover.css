@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .cover { 
   padding: 0 48px 92px; 
 } 
@@ -19,3 +20,28 @@
     padding-bottom: 64px; 
   } 
 } 
+=======
+.cover {
+    padding: 0 48px 92px;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .cover {
+      padding: 0;
+      padding-bottom: 92px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .cover {
+      padding: 0;
+      padding-bottom: 88px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .cover {
+      padding-bottom: 64px;
+    }
+  }
+>>>>>>> 56c4da5825f653e69e735faea4ca4d1fe6cc7870

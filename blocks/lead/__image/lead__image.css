@@ -16,7 +16,11 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .lead__image {
+<<<<<<< HEAD
       margin: 78px auto 0 auto;
+=======
+    margin: auto;
+>>>>>>> 56c4da5825f653e69e735faea4ca4d1fe6cc7870
   }
 }
 

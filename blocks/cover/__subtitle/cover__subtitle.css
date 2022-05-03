@@ -1,5 +1,6 @@
 .cover__subtitle { 
   margin: 0;
+<<<<<<< HEAD
   max-width: 360px; 
   font-style: normal; 
   font-weight: normal; 
@@ -23,3 +24,31 @@
       line-height: 1.14; 
     } 
   } 
+=======
+  max-width: 360px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  z-index: 2;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .cover__subtitle {
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .cover__subtitle {
+    }
+  }
+  
+  @media screen and (max-width: 650px) {
+    .cover__subtitle {
+      max-width: 260px;
+      font-size: 14px;
+      line-height: 1.14;
+    }
+  }
+>>>>>>> 56c4da5825f653e69e735faea4ca4d1fe6cc7870
