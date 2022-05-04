@@ -20,9 +20,7 @@
 }
 @media screen and (min-width: 320px) and (max-width: 1023px) {
   .lead {
-    max-height: 413px;
     width: 100%;
-    min-height: 96px;
     font-style: normal;
     font-weight: 900;
     font-size: 40px;

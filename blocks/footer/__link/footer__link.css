@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 375px) {
-  .footer__linkm {
+  .footer__link {
     font-style: normal;
     font-weight: normal;
   }
