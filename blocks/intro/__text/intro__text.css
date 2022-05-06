@@ -5,19 +5,17 @@
   text-align: left;
   max-width: 683px;
   margin: 0;
+  font-size: 16px;
+  line-height: 26px;
 }
-
 @media screen and (max-width: 1023px) {
   .intro__text {
-    font-size: 14px;
-    line-height: 24px;
+    max-width: 720px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro__text {
-    font-size: 16px;
-    line-height: 26px;
     min-width: 288px;
   }
 }

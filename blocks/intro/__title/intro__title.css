@@ -3,14 +3,18 @@
   max-width: 683px;
   font-style: normal;
   font-size: 54px;
-  line-height: 59px;
+  line-height: 58px;
   font-weight: 900;
   margin-bottom: 40px;
   color: #ffffff;
   text-align: left;
   
 }
-
+@media screen and (max-width: 1023px) {
+  .intro__title {
+    max-width: 720px;
+  }
+}
 @media screen and (max-width: 767px) {
   .intro__title {
     font-size: 32px;
