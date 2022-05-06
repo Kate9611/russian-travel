@@ -1,10 +1,10 @@
 .intro__text {
+  margin: 0;
+  max-width: 690px;
   font-style: normal;
   font-weight: 400;
   color: #ffffff;
   text-align: left;
-  max-width: 690px;
-  margin: 0;
   font-size: 16px;
   line-height: 26px;
 }
@@ -16,6 +16,6 @@
 
 @media screen and (max-width: 767px) {
   .intro__text {
-    min-width: 288px;
+    max-width: 288px;
   }
 }
