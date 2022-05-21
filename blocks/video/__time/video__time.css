@@ -1,0 +1,35 @@
+.video__time {
+    margin: 0;
+    padding: 94px 0 12px 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+    color: #FFFFFF;
+    position: relative;
+}
+
+@media  screen and (max-width: 1279px) {
+    .video__time {
+        padding-top: 54px;
+    }
+  }
+
+@media  screen and (max-width: 1023px) {
+    .video__time {
+        padding: 17px 0 8px 24px;
+    }
+  }
+  
+@media screen and (max-width: 767px) {
+    .video__time {
+        padding: 17px 0 8px 24px;
+    }
+  }
+  
+@media screen and (max-width: 374px) {
+    .video__time {
+        padding: 23px 0 8px 16px;
+    }
+  }
